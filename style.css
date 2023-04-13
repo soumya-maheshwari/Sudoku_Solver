@@ -44,20 +44,20 @@ td:nth-child(3n) {
 tr:nth-child(3n) td {
   border-bottom: 3px solid black;
 }
-#solve,
-#clear-board {
-  background-color: rgb(236, 229, 236);
+#solve-button,
+#clear-button {
   display: flex;
-  width: auto;
   justify-content: center;
   align-items: center;
   text-align: center;
+  width: 100px;
+  height: 50px;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
   /* position: absolute; */
 }
 
-/* #solve:hover {
-  background-color: rgb(224, 219, 219);
-} */
 .footer {
   margin-top: 10px;
   position: absolute;
@@ -76,4 +76,9 @@ table {
   border-collapse: collapse;
   font-size: 2em;
   margin: 0 auto;
+}
+
+.git {
+  width: 30px;
+  height: 30px;
 }
